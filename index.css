@@ -564,3 +564,55 @@ opacity: 0.8;
 
 
 /* ---------------FOOTER SECTION--------------- */
+.footer--container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ }
+ .footer--container div{ 
+  width: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+ }
+
+ .footer--container > div{
+  
+  margin-bottom: 0.5rem;
+ }
+
+ .footer--container div p:nth-child(1){ 
+  gap:1rem;
+ }
+
+ .footer--container div p{ 
+  font-size: 0.7rem;
+ }
+ #email--holder input{ 
+  background: none;
+  border: none;
+  width: 4.5rem;
+  color: black;
+  outline: none;
+  font-size: 0.7rem;
+ }
+
+ #email--holder input::placeholder{
+  color: black;
+  font-size: 0.7rem;
+ }
+
+ #email--holder{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: fit-content;
+  border-bottom: 1px solid black;
+  /* gap: 1rem; */
+ }
+
+ .footer--line img{
+  height: 6rem;
+
+ }
